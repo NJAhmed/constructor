@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?baead3fffa2f72e732f5b0ed008bc640") format("truetype"),
+url("./flaticon.woff?baead3fffa2f72e732f5b0ed008bc640") format("woff"),
+url("./flaticon.woff2?baead3fffa2f72e732f5b0ed008bc640") format("woff2"),
+url("./flaticon.eot?baead3fffa2f72e732f5b0ed008bc640#iefix") format("embedded-opentype"),
+url("./flaticon.svg?baead3fffa2f72e732f5b0ed008bc640#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-under-construction:before {
+    content: "\f101";
+}
+.flaticon-hook:before {
+    content: "\f102";
+}
+.flaticon-engineer:before {
+    content: "\f103";
+}
+.flaticon-valve:before {
+    content: "\f104";
+}
+.flaticon-engineer-1:before {
+    content: "\f105";
+}
+.flaticon-sketch:before {
+    content: "\f106";
+}
+.flaticon-excavator:before {
+    content: "\f107";
+}
+.flaticon-building:before {
+    content: "\f108";
+}
+.flaticon-renovation:before {
+    content: "\f109";
+}
+.flaticon-right-quote:before {
+    content: "\f10a";
+}
+.flaticon-smartphone:before {
+    content: "\f10b";
+}
+.flaticon-gps:before {
+    content: "\f10c";
+}

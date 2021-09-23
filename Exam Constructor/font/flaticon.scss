@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?baead3fffa2f72e732f5b0ed008bc640") format("truetype"),
+url("./flaticon.woff?baead3fffa2f72e732f5b0ed008bc640") format("woff"),
+url("./flaticon.woff2?baead3fffa2f72e732f5b0ed008bc640") format("woff2"),
+url("./flaticon.eot?baead3fffa2f72e732f5b0ed008bc640#iefix") format("embedded-opentype"),
+url("./flaticon.svg?baead3fffa2f72e732f5b0ed008bc640#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "under-construction": "\f101",
+    "hook": "\f102",
+    "engineer": "\f103",
+    "valve": "\f104",
+    "engineer-1": "\f105",
+    "sketch": "\f106",
+    "excavator": "\f107",
+    "building": "\f108",
+    "renovation": "\f109",
+    "right-quote": "\f10a",
+    "smartphone": "\f10b",
+    "gps": "\f10c",
+);
+
+.flaticon-under-construction:before {
+    content: map-get($flaticon-map, "under-construction");
+}
+.flaticon-hook:before {
+    content: map-get($flaticon-map, "hook");
+}
+.flaticon-engineer:before {
+    content: map-get($flaticon-map, "engineer");
+}
+.flaticon-valve:before {
+    content: map-get($flaticon-map, "valve");
+}
+.flaticon-engineer-1:before {
+    content: map-get($flaticon-map, "engineer-1");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon-map, "sketch");
+}
+.flaticon-excavator:before {
+    content: map-get($flaticon-map, "excavator");
+}
+.flaticon-building:before {
+    content: map-get($flaticon-map, "building");
+}
+.flaticon-renovation:before {
+    content: map-get($flaticon-map, "renovation");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-gps:before {
+    content: map-get($flaticon-map, "gps");
+}
